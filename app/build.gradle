@@ -15,7 +15,7 @@ android {
         release {
             storeFile file("/release.keystore")
             storePassword "shuttl"
-            keyAlias "shuttl"
+            keyAlias "appAlias"
             keyPassword "shuttl"
         }
     }
